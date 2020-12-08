@@ -1,1 +1,4 @@
 Project Goals:
+The program should get data from the database and display the filtered data to the user.
+  - Search for a player and an opponent, and the players past performance history against that team should be displayed to the user. 
+  - Functionality so it shows the percent change for both the players team and the opposing team. 
