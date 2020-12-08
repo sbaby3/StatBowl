@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="style.css" /> 
     </head>
 
-<! -- Overall page is "background", info in middle of page is "content", bottom of page is "footer"-->
+<!-- Overall page is "background", info in middle of page is "content", bottom of page is "footer"-->
     <body>
         <div id="background">
             <div id="websiteTitle">
@@ -15,7 +15,7 @@
             <div id="content">
                 <div id="navigation">
                         <ul>
-                            <! -- Right now the links are just arbitrary-->
+                            <!-- Right now the links are just arbitrary-->
                             <li><a href= "https://www.youtube.com">Home</a></li>
                             <li><a href="https://www.google.com">Statistics</a></li>
                             <li><a href= "https://stackoverflow.com/">About</a></li>
@@ -27,11 +27,30 @@
                     <p>This website will get data from our NFL API and display the data to the user, filtered accordingly. 
                         Please search for a player using the search box below to get started. </p>
                 </div>
-
+                
+                <!-- 
                 </div id="searchfield"> 
                     </div><input type="text" class="box" placeholder="Enter Player Name">
+
                     <br />
+                    
+
                 </div>
+                -->
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                      <a href="#about">About</a>
+                      <a href="#base">Base</a>
+                      <a href="#blog">Blog</a>
+                      <a href="#contact">Contact</a>
+                      <a href="#custom">Custom</a>
+                      <a href="#support">Support</a>
+                      <a href="#tools">Tools</a>
+                    </div>
+                  </div>
+                
 
                 
             <div id="footer">
