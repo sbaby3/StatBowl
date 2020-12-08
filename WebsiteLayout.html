@@ -37,6 +37,7 @@
 
                 </div>
                 -->
+                <div class="search_box"></div>
                 <div class="dropdown">
                     <button onclick="myFunction()" class="dropbtn">Dropdown</button>
                     <div id="myDropdown" class="dropdown-content">
@@ -50,11 +51,22 @@
                       <a href="#tools">Tools</a>
                     </div>
                   </div>
+
+                <script src="jquery.js"></script> 
+                <script> 
+                $(function(){
+                    $("#includedContent").load("exampleNFLstatsHTML.html"); 
+                });
+                </script> 
+
+                <body> 
+                    <div id="includedContent"></div>
+                </body>
                 
 
                 
             <div id="footer">
-                <p>This project was made by Shon Baby, Kelvin Pun,and Deepu Varghese</p>
+                <p>This project was made by Shon Baby, Kelvin Pun, and Deepu Varghese</p>
             </div>
 
 
