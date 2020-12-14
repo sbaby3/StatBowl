@@ -1,4 +1,5 @@
 import pandas
+from player import Player
 from urllib.request import urlopen
 
 players = []
@@ -18,5 +19,10 @@ for i in range(65, 91):
             break
         playerendindex = playersHTML.find("<", playerindex)
         temp = playerendindex
-        player = playersHTML[playerindex+6:playerendindex]
-        players.append(player)
+        
+        
+        
+        
+        if()
+            player = playersHTML[playerindex+6:playerendindex]
+            players.append(player)
