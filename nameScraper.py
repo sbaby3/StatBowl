@@ -20,6 +20,3 @@ for i in range(65, 91):
         temp = playerendindex
         player = playersHTML[playerindex+6:playerendindex]
         players.append(player)
-        
-print(players)
-
